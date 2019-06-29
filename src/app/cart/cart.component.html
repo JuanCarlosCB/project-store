@@ -1,0 +1,15 @@
+<div class="cart" >
+  <form *ngFor="let items of cartItems">
+  <div class="">
+    <label>Nombre:</label>
+    <input type="text" class="pname"><p>{{items.item.name}}</p>
+  </div>
+<div class="">
+  <label>Total:</label>
+  <input type="text" class="ptotal"> <p>{{items.item.price}} x {{items.item.stock}}</p>
+</div>
+<div class="">
+  <button type="submit" name="button" value="Remove">Cancelar</button>
+</div>
+</form>
+</div>

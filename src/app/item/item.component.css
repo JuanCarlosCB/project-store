@@ -1,0 +1,83 @@
+.edit{
+  float:right;
+  margin: 1vw;
+  background-color: white;
+  color:black;
+}
+
+.edit:hover{
+  background-color: #333333;
+  text-shadow: 5px 3px #000000;
+  color: white;
+}
+
+.delete{
+  float:left;
+  margin: 1vw;
+  background-color: white;
+  color:black;
+}
+
+.delete:hover{
+  background-color: red;
+  color: black;
+}
+
+.okstock{
+  background-color: lightblue;
+  width: 60%;
+  border-radius: 30px;
+  border: 2px solid;
+  padding: 1em;
+}
+
+.outstock{
+  background-color: red;
+  width: 60%;
+  border-radius: 30px;
+  border: 2px solid;
+  padding: 1em;
+}
+
+button{
+    margin: 3px;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+
+.description{
+  padding: 1vw;
+}
+
+.price{
+  padding: 1vw;
+  margin: 1vw;
+}
+
+
+.totalprice{
+  padding: 1vw;
+}
+
+.image{
+  height: 20vw;
+  width: 20vw;
+}
+
+.cantidad{
+  width:2vw;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+
+.buy{
+  background-color: white;
+  color:black;
+}
+
+.buy:hover{
+  background-color: #333333;
+  text-shadow: 5px 3px #000000;
+  color: white;
+}

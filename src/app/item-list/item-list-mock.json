@@ -1,0 +1,64 @@
+{
+  "item-list": [
+    {
+      "id": 1,
+      "name": "NVIDIA GeForce GTX 1060",
+      "description": "ASUS DUAL - 4GB RAM",
+      "stock": 2,
+      "price": 320.95,
+      "image": "/assets/grafica.png",
+      "selected": true,
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "name": "Kingston KCP313NS8/4",
+      "description": "DDR3 - 4GB RAM",
+      "stock": 8,
+      "price": 28.85,
+      "image": "/assets/ram.png",
+      "selected": false,
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "name": "Tacens MPII550 550W",
+      "description": "Eficiencia 85+ - ATX",
+      "stock": 0,
+      "price": 21.82,
+      "image": "/assets/fuente.png",
+      "selected": false,
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "name": "StarTech FAN9X25TX3L",
+      "description": "Ventilador para chasis",
+      "stock": 0,
+      "price": 12.1,
+      "image": "/assets/ventilador.png",
+      "selected": false,
+      "quantity": 0
+    },
+    {
+      "id": 5,
+      "name": "Toshiba MQ01ABF050",
+      "description": "Disco Duro de 500 GB",
+      "stock": 5,
+      "price": 37.9,
+      "image": "/assets/discoduro.png",
+      "selected": false,
+      "quantity": 0
+    },
+    {
+      "id": 6,
+      "name": "Intel Core i5-8400",
+      "description": "Procesador 8ª gen",
+      "stock": 3,
+      "price": 194.44,
+      "image": "/assets/procesador.png",
+      "selected": false,
+      "quantity": 0
+    }
+  ]
+}

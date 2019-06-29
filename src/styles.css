@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
+
+*{
+  margin: 0;
+}
+
+.menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  font-family: 'Orbitron', sans-serif;
+  position:relative;
+}
+
+.menu li{
+  float: left;
+  /* position: relative; */
+}
+
+.menu li a:hover{
+  display: block;
+  background-color: #333333;
+  text-shadow: 5px 4px #000000;
+}
+
+.menu li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+}
+
+.menu li ul li{
+  /* width: 250px; */
+  margin:0;
+  display:block;
+  position: absolute;
+  /* top: 100%;
+  top:-1px; */
+}
+
+.menu li ul li a :hover {
+  width: 250px;
+  margin:0;
+  display:block;
+  position: absolute;
+  top: 100%;
+  top:-1px;
+}
+
+.logo{
+  width: 15vw;
+  height: 10vw;
+}
+
+/* .title{
+  font-size: 100%;
+  text-align: center;
+  background-color: red;
+  padding: 2em;
+}
+
+.title p{
+  font-size: 300%;
+} */
+
+.total{
+  font-family: 'Faster One', cursive;
+  text-align: center;
+  background-color: white;
+  color: red;
+  padding: 1em;
+  font-size: 150%;
+
+  animation-name: parpadea;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadea{
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadea {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes parpadea {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}

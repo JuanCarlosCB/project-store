@@ -1,0 +1,39 @@
+<div class="form">
+  <form *ngIf="item">
+    <div>
+        <label for="id">Id:</label>
+        <input type="number" [(ngModel)] = "item.id" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+        <label for="name">Nombre:</label>
+        <input type="text" [(ngModel)] = "item.name" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+        <label for="description">Descripción:</label>
+        <input type="text" [(ngModel)] = "item.description" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+      <label for="stock">Stock:</label>
+      <input type="number" [(ngModel)] = "item.stock" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+      <label for="price">Precio:</label>
+      <input type="number" [(ngModel)] = "item.price" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+      <label for="image">Imagen:</label>
+      <input type="text" [(ngModel)] = "item.image" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+      <label for="selected">Seleccionado:</label>
+      <input type="text" [(ngModel)] = "item.selected" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+      <label for="quantity">Cantidad:</label>
+      <input type="number" [(ngModel)] = "item.quantity" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+        <input type="submit" (click)="updateItem(item)" value="Actualizar">
+    </div>
+  </form>
+</div>

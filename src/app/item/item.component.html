@@ -1,0 +1,13 @@
+    <a (click)="navigateItem()"><button class="edit" type="button">EDITAR</button></a>
+    <button type="button" class="delete" (click)="deleteItem()">X</button>
+     <img class="image" [src]="item.image" alt="Imagen no encontrada">
+     <h2 class="name">{{item.name | uppercase}}</h2>
+     <p class="description">{{item.description}}</p>
+     <p class="price">{{item.price | currency:'EUR'}}</p>
+     <button type="button" class="minusbutton" (click)="decreaseCantidad()">-</button>
+     <input type="number" maxlength="2" placeholder="0" class="cantidad" [(ngModel)] = "item.quantity" (change)="metodoChange($event)" disabled>
+     <button type="button" name="plusbutton" (click)="increaseCantidad()">+</button>
+     <br><br><br>
+     <span class="okstock" *ngIf="item.stock>0" [class.selected]="item.selected">{{item.stock}} in stock</span>
+     <span class="outstock" *ngIf="item.stock===0" [class.selected]="item.selected">Out of Stock.</span>
+     <br><br><br>

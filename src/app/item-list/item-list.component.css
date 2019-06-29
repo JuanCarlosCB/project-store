@@ -1,0 +1,15 @@
+.list li{
+  display: inline-block;
+  list-style-type: none;
+  width: 20vw; /*20%;*/
+  /*height: 60vw; */
+
+  font-family: 'Orbitron', sans-serif;
+  margin: 2vw; /*2em*/
+  padding: 2vw; /*2em*/
+  background-color: #f2f2f2;
+  /* box-shadow: 2px 2px 50px 8px #e6e6e6, 3px -3px 50px 3px #e6e6e6; */
+  text-align: center;
+  border-radius: 4vw;
+  /*vw*/
+}
